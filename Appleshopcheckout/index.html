@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Apple Shop Checkout Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class=" summary">
+        <h2>Order Section</h2>
+        <div class="product-list">
+          <div class="product-item">
+            <img
+              src="images/apple-iphone-16.webp"
+              alt="iPhone 16 Pro"
+              class="product-img"
+            />
+            <div class="product-details">
+              <div class="product-title">iPhone 12 Pro</div>
+              <div class="product-color">Golden</div>
+              <div class="product-qty">x 1</div>
+            </div>
+            <div>
+              <div class="product-price">$999.00</div>
+              <div class="product-remove">✕</div>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <img src="images/airpods.avif" alt="Airpods" class="product-img" />
+            <div class="product-details">
+              <div class="product-title">Airpods</div>
+              <div class="product-color">whilte</div>
+              <div class="product-qty">x 1</div>
+            </div>
+            <div>
+              <div class="product-price">$399.00</div>
+              <div class="product-remove">✕</div>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <img
+              src="images/s-l1600macbook.webp"
+              alt="iMac"
+              class="product-img"
+            />
+            <div class="product-details">
+              <div class="product-title">iMac</div>
+              <div class="product-color">Green</div>
+              <div class="product-qty">x 1</div>
+            </div>
+            <div>
+              <div class="product-price">$1199.00</div>
+              <div class="product-remove">✕</div>
+            </div>
+          </div>
+        </div>
+        <div class="coupon">
+          <input type="text" placeholder="Enter coupon code" />
+        <button>Apply Coupon</button>
+      </div>
+      <div class="totals">
+        <div><span>Sub total</span><span>$2597.00</span></div>
+        <div><span>Tax</span><span>$623.28</span></div>
+        <div class="total-line"><strong>Total</strong><strong>$3220.28</strong></div>
+      </div>
+      </section>
+
+      <section class="contact-form">
+      <h2>Contact Information</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+          <option value="" disabled selected>Select your country</option>
+          <option value="usa">United States</option>
+          <option value="uk">United Kingdom</option>
+          <option value="canada">Canada</option>
+          <option value="australia">Australia</option>
+          <!-- Add more countries if needed -->
+        </select>
+
+        <button type="submit">Checkout</button>
+      </form>
+    </section>
+    </div>
+  </body>
+</html>
+
+
